@@ -28,27 +28,7 @@ Laravelを使用して作成した商品管理アプリです。
 6. php artisan db:seed
 
 ## URL
-- 開発環境：http://localhost/  
+- 開発環境：http://localhost/products 
 - phpMyAdmin：http://localhost:8080
 
-## ER図
-```mermaid
-erDiagram
-    PRODUCTS {
-        bigint id PK "商品ID"
-        string name "商品名"
-        integer price "価格"
-        string image "商品画像"
-        timestamp created_at "登録日時"
-        timestamp updated_at "更新日時"
-    }
-
-    CONTACTS {
-        bigint id PK "お問い合わせID"
-        string name "お名前"
-        string email "メールアドレス"
-        text message "お問い合わせ内容"
-        timestamp created_at "送信日時"
-        timestamp updated_at "更新日時"
-    }
 ---
